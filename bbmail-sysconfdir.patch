@@ -1,0 +1,21 @@
+diff -ur bbmail-0.8.2-orig/Makefile.am bbmail-0.8.2/Makefile.am
+--- bbmail-0.8.2-orig/Makefile.am	Sun Aug 26 14:13:05 2001
++++ bbmail-0.8.2/Makefile.am	Wed Jan 23 20:39:19 2002
+@@ -1,6 +1,6 @@
+ CPPFLAGS =	@CPPFLAGS@ @INTERLACE@ \
+--DBBTOOL_GLOBAL=\"$(datadir)/bbtools/bbmail.bb\" \
+--DBBTOOL_LOCAL=\".bbtools/bbmail.bb\"
++		-DBBTOOL_GLOBAL=\"$(sysconfdir)/bbtools/bbmail.bb\" \
++		-DBBTOOL_LOCAL=\".bbtools/bbmail.bb\"
+ 				
+ 
+ SUBDIRS = data scripts
+diff -ur bbmail-0.8.2-orig/data/Makefile.am bbmail-0.8.2/data/Makefile.am
+--- bbmail-0.8.2-orig/data/Makefile.am	Wed Oct 31 20:20:32 2001
++++ bbmail-0.8.2/data/Makefile.am	Wed Jan 23 20:50:34 2002
+@@ -1,4 +1,4 @@
+-configdir = $(datadir)/bbtools
++configdir = $(sysconfdir)/bbtools
+ CLEANFILES = bbtoolsrc 
+ 
+ config_DATA =   bbmail.bb
