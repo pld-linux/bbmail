@@ -34,6 +34,7 @@ pocztowych (w ró¿nych formatach) i jest wysoce konfigurowalny.
 
 %build
 rm -f missing
+cp -f /usr/share/automake/config.sub .
 %{__aclocal}
 %{__autoconf}
 %{__automake}
