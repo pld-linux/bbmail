@@ -36,7 +36,7 @@ pocztowych (w ró¿nych formatach), jest wysoce konfigurowalny.
 rm -f missing
 aclocal
 autoconf
-automake -a -c
+automake -a -c -f
 %configure
 %{__make} CXX="%{__cc}"
 
