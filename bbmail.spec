@@ -17,17 +17,16 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		_mandir		%{_prefix}/man
 
 %description
-bbmail is a tool which notifies you about arriving mail. It works great with
-blackbox window manager, becouse it use it's theme, but it can also work
-with other.
-bbmail can use multiple mailboxes (in many types), it is highly configurable.
+bbmail is a tool which notifies you about arriving mail. It works
+great with blackbox window manager, becouse it use it's theme, but it
+can also work with other. bbmail can use multiple mailboxes (in many
+types), it is highly configurable.
 
 %description -l pl
-bbmail jest programem powiadamiaj±cym o przychodz±cej poczcie. Wspólpracuje
-z zarz±dca okien blackbox, u¿ywaj±c jego ustawieñ wygl±du, aczkolwiek mo¿e te¿
-dzia³aæ z innym.
-Obs³uguje wiele skrzynek pocztowych (w ró¿nych formatach), jest wysoce
-konfigurowalny.
+bbmail jest programem powiadamiaj±cym o przychodz±cej poczcie.
+Wspólpracuje z zarz±dca okien blackbox, u¿ywaj±c jego ustawieñ
+wygl±du, aczkolwiek mo¿e te¿ dzia³aæ z innym. Obs³uguje wiele skrzynek
+pocztowych (w ró¿nych formatach), jest wysoce konfigurowalny.
 
 %prep
 %setup -q
