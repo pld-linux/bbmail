@@ -47,14 +47,12 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} DESTDIR=$RPM_BUILD_ROOT install
 
-gzip -9nf AUTHORS BUGS README TODO ChangeLog
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc AUTHORS BUGS README TODO ChangeLog
 %attr(755,root,root) %{_bindir}/bb*
 %{_mandir}/*/*
 %config(noreplace) %verify(not md5 size mtime) %{_sysconfdir}/bbtools/%{name}.*
