@@ -6,7 +6,10 @@ Release:	2
 License:	GPL
 Group:		X11/Applications
 Group(de):	X11/Applikationen
+Group(es):	X11/Aplicaciones
 Group(pl):	X11/Aplikacje
+Group(pt_BR):	X11/Aplicações
+Group(pt):	X11/Aplicações
 Source0:	http://bbtools.windsofstorm.net/sources/%{name}-%{version}.tar.gz
 Patch0:		%{name}-sysconfdir.patch
 URL:		http://bbtools.windsofstorm.net/
