@@ -1,0 +1,10 @@
+diff -uNr bbmail-0.8.2.orig/configure.in bbmail-0.8.2/configure.in
+--- bbmail-0.8.2.orig/configure.in	Sat Nov 10 17:15:48 2001
++++ bbmail-0.8.2/configure.in	Fri Apr 12 19:51:10 2002
+@@ -90,5 +90,6 @@
+ 
+ dnl Checks for library functions.
+ AC_CHECK_FUNCS(select strstr)
++AC_CHECK_FUNC(fmod, [], AC_CHECK_LIB(m, fmod))
+ 
+ AC_OUTPUT(version.h Makefile data/Makefile scripts/Makefile)
