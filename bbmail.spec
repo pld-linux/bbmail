@@ -23,9 +23,10 @@ types) and is highly configurable.
 
 %description -l pl
 bbmail jest programem powiadamiaj±cym o przychodz±cej poczcie.
-Wspólpracuje z zarz±dca okien blackbox, u¿ywaj±c jego ustawieñ
-wygl±du, aczkolwiek mo¿e te¿ dzia³aæ z innym. Obs³uguje wiele skrzynek
-pocztowych (w ró¿nych formatach) i jest wysoce konfigurowalny.
+Wspó³pracuje z zarz±dca okien blackbox, u¿ywaj±c jego ustawieñ
+wygl±du, aczkolwiek mo¿e te¿ dzia³aæ z innym. Obs³uguje wiele 
+skrzynek pocztowych (w ró¿nych formatach) i jest wysoce 
+konfigurowalny.
 
 %prep
 %setup -q
