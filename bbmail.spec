@@ -2,11 +2,12 @@ Summary:	A mail notification program designed for blackbox
 Summary(pl):	Powiadamiacz o poczcie zaprojektowany dla blackboksa
 Name:		bbmail
 Version:	0.8.2
-Release:	2
+Release:	3
 License:	GPL
 Group:		X11/Applications
 Source0:	http://bbtools.windsofstorm.net/sources/%{name}-%{version}.tar.gz
 Patch0:		%{name}-sysconfdir.patch
+Patch1:		%{name}-fmod.patch
 URL:		http://bbtools.windsofstorm.net/
 BuildRequires:	XFree86-devel
 BuildRequires:	autoconf
@@ -31,6 +32,7 @@ pocztowych (w ró¿nych formatach), jest wysoce konfigurowalny.
 %prep
 %setup -q
 %patch0 -p1
+%patch1 -p1
 
 %build
 rm -f missing
