@@ -13,6 +13,7 @@ URL:		http://bbtools.windsofstorm.net/
 BuildRequires:	XFree86-devel
 BuildRequires:	autoconf
 BuildRequires:	automake
+BuildRequires:	libstdc++-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -54,5 +55,5 @@ rm -rf $RPM_BUILD_ROOT
 %doc AUTHORS BUGS README TODO ChangeLog
 %attr(755,root,root) %{_bindir}/bb*
 %dir %{_sysconfdir}/bbtools
-%config(noreplace) %verify(not md5 size mtime) %{_sysconfdir}/bbtools/%{name}.*
+%config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/bbtools/%{name}.*
 %{_mandir}/man1/*
