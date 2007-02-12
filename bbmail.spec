@@ -1,5 +1,5 @@
 Summary:	A mail notification program designed for blackbox
-Summary(pl.UTF-8):   Powiadamiacz o poczcie zaprojektowany dla blackboksa
+Summary(pl.UTF-8):	Powiadamiacz o poczcie zaprojektowany dla blackboksa
 Name:		bbmail
 Version:	0.8.3
 Release:	3
