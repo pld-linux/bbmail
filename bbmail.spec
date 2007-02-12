@@ -1,5 +1,5 @@
 Summary:	A mail notification program designed for blackbox
-Summary(pl):	Powiadamiacz o poczcie zaprojektowany dla blackboksa
+Summary(pl.UTF-8):   Powiadamiacz o poczcie zaprojektowany dla blackboksa
 Name:		bbmail
 Version:	0.8.3
 Release:	3
@@ -22,11 +22,11 @@ great with blackbox window manager, because it use it's theme, but it
 can also work with other. bbmail can use multiple mailboxes (in many
 types) and is highly configurable.
 
-%description -l pl
-bbmail jest programem powiadamiaj±cym o przychodz±cej poczcie.
-Wspó³pracuje z zarz±dc± okien blackbox, u¿ywaj±c jego ustawieñ
-wygl±du, aczkolwiek mo¿e te¿ dzia³aæ z innym. Obs³uguje wiele 
-skrzynek pocztowych (w ró¿nych formatach) i jest wysoce 
+%description -l pl.UTF-8
+bbmail jest programem powiadamiajÄ…cym o przychodzÄ…cej poczcie.
+WspÃ³Å‚pracuje z zarzÄ…dcÄ… okien blackbox, uÅ¼ywajÄ…c jego ustawieÅ„
+wyglÄ…du, aczkolwiek moÅ¼e teÅ¼ dziaÅ‚aÄ‡ z innym. ObsÅ‚uguje wiele 
+skrzynek pocztowych (w rÃ³Å¼nych formatach) i jest wysoce 
 konfigurowalny.
 
 %prep
